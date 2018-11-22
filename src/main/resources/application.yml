@@ -1,0 +1,19 @@
+my:
+  name: cx
+  age: 20
+
+spring:
+  profiles:
+    active: dev
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    #打印SQL
+    com.cx.mysql: debug
+
+
+
+
+
